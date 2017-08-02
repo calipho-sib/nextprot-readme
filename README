@@ -1,0 +1,209 @@
+----------------------------------------------------------------------------
+        neXtProt
+        CALIPHO group at the SIB - Swiss Institute of Bioinformatics
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+** INTRODUCTION **
+
+Welcome to the anonymous FTP site of neXtProt.
+
+You can download from here the XML and PEFF format files for the current release
+of neXtProt, as well as previous releases. You can also download the controlled 
+vocabularies and ontologies that have been specifically developed for neXtProt as
+well as other miscellaneous files.
+
+The content of this site is copyright the SIB - Swiss Institute of Bioinformatics.
+The files on this FTP site are available under the Creative Commons Attribution-NoDerivs 
+License.
+
+See: http://creativecommons.org/licenses/by-nd/3.0/
+
+This means that you are free to copy, distribute, display and make commercial use 
+of these databases in all legislations, provided you give us credit. However, if 
+you intend to distribute a modified version of one of our databases, you must ask 
+us for permission first.
+
+
+** SUMMARY OF CONTENTS **
+
+/pub
+ /current_release/    Contains various files relevant to the current release
+                      of neXtProt
+ /previous_releases/  Contains the TAR files of neXtProt previous releases
+
+
+** DETAILED CONTENT DESCRIPTION **
+
+/pub/current_release/ac_lists
+
+   Lists of neXtProt accession numbers.
+
+   nextprot_ac_list.all.txt                      All neXtProt entry ACs
+   nextprot_ac_list_chromosome_??.txt            Lists of ACs for each of the human
+                                                 chromosomes (1-22, X, Y, MT and unknown)
+   nextprot_ac_list_PE1_at_protein_level.txt     List of ACs for entries with a protein
+                                                 existence "at protein level" (PE 1)
+   nextprot_ac_list_PE2_at_transcript_level.txt  List of ACs for entries with a protein
+                                                 existence "at transcript level" (PE 2)
+   nextprot_ac_list_PE3_homology.txt             List of ACs for entries with a protein
+                                                 existence "by homology" (PE 3)
+   nextprot_ac_list_PE4_predicted.txt            List of ACs for entries with a protein
+                                                 existence "predicted" (PE 4)
+   nextprot_ac_list_PE5_uncertain.txt            List of ACs for entries with a protein
+                                                 existence "uncertain" (PE 5)
+
+
+/pub/current_release/chr_reports
+
+   Report files for each human chromosome. These reports files list all proteins 
+   encoded by the genes on a specific chromosome. They contain a number of stats
+   (number of isoforms, PTMs, variants, etc) as well as other properties associated
+   with a given protein entry.
+
+   nextprot_chromosome_??.txt     Individual report files for each of the human
+                                  chromosomes (1-22, X, Y, MT and unknown)
+
+                                                                  
+/pub/current_release/controlled_vocabularies
+
+   neXtProt-specific controlled vocabularies, mappings and ontologies. The files for
+   the controlled vocabulary of cell lines, the Cellosaurus, can be downloaded from:
+   ftp://ftp.expasy.org/databases/cellosaurus/
+
+   caloha.obo                     Human anatomical ontology
+   cv_carbohydrate.txt            Controlled vocabulary of carbohydrate modifications								  
+   cv_domain.txt                  Controlled vocabulary of domains
+   cv_family.txt                  Controlled vocabulary of families
+   cv_metal.txt                   Controlled vocabulary of metal-binding sites
+   cv_modification_effect.obo     Controlled vocabulary of changes on function, property, 
+                                  localization, etc., following a modification (PTM, variation, etc.)
+   cv_protein_property.obo        Controlled vocabulary of protein properties								  
+   cv_topological_domain.txt      Controlled vocabulary of topological domains
+   icepo.obo                      Electrophysiology ontology 
+   
+   
+/pub/current_release/custom/hpp/
+
+   Customized report files for the HUPO Human Proteome Project (HPP) for 
+   each human chromosome.
+   
+   count-of-pe12345-by-chromosome.txt          Statistics of entries for the each of the
+                                               chromosomes for the different "protein existence"
+                                               levels
+   HPP_chromosome_??.txt                       Individual report files for each of the human
+                                               chromosomes (1-22, X, Y, MT and unknown)
+   HPP_entries_with_phospho_by_chromosome.txt  File listing the chromosome and
+                                               accession numbers for each entry
+                                               with an annotated phosphorylated
+                                               residue
+   HPP_entries_with_nacetyl_by_chromosome.txt  File listing the chromosome and
+                                               accession numbers for each entry
+                                               with a N-acetylated residue
+   HPP_entries_with_unconfirmed_MS_data.txt    File listing accession numbers for all entries 
+                                               having MS data that needs to be confirmed before
+                                               they can be validated at protein level											   
+   
+   
+/pub/current_release/mapping
+
+   Mapping of neXtProt accession numbers to external resources (tab-
+   delimited files).
+   
+   nextprot_ensg.txt              Mapping to Ensembl gene identifiers
+   nextprot_ensp.txt              Mapping to Ensembl protein identifiers
+   nextprot_ensp_unmapped.txt     Ensembl protein identifiers that cannot be mapped to
+                                  any isoform in neXtProt
+   nextprot_enst.txt              Mapping to Ensembl transcript identifiers
+   nextprot_enst_unmapped.txt     Ensembl transcript identifiers considered as coding by 
+                                  Ensembl that cannot be mapped to any isoform in neXtProt 
+   nextprot_geneid.txt            Mapping to NCBI GeneID gene accession numbers
+   nextprot_hgnc.txt              Mapping to HGNC gene accession numbers
+   nextprot_ipi.txt               Mapping to IPI protein identifiers
+   nextprot_mgi.txt               Mapping to MGI mouse gene accession numbers
+   nextprot_refseq.txt            Mapping to NCBI RefSeq protein accession numbers
+
+   
+/pub/current_release/md5
+
+   neXtProt current release sequence information. 
+
+   nextprot_sequence_md5.txt      Tab-delimited file with the accession numbers, MD5 hashes 
+                                  and sequences of the isoforms in neXtProt
+   
+   
+/pub/current_release/peff
+
+   neXtProt current release in PEFF format. The PEFF format developed by the
+   HUPO PSI (PubMed:19132688) is an enriched FASTA format that allows mass 
+   spectrometry search engines and other tools to easily access data essential 
+   to an optimal protein identification, namely sequence variations and PTMs.
+
+   nextprot_all.peff.gz           Complete release of neXtProt in PEFF format
+
+   nextprot_chromosome_??.xml.gz  Individual files for each of the human
+                                  chromosomes (1-22, X, Y, MT and unknown) in 
+                                  PEFF format
+
+   Important note: if you want to download a FASTA version of the human protein
+   sequences in neXtProt you can use the PEFF format file and ignore the extra 
+   information on the ">" line. You should also take note that the sequences in
+   neXtProt are 100% identical to those in UniProtKB/Swiss-Prot and that if you 
+   want to download sequence information to implement of sequence search engine
+   you should do so using the UniProt server FTP site available at:
+
+                         http://www.uniprot.org/downloads
+
+
+/pub/current_release/rdf/ttl/
+
+   neXtProt current release in RDF Turtle (TTL) format.
+
+   experimentalcontext.ttl.gz     Description of experimental contexts cited in
+                                  the evidences of annotations
+   
+   expression_high.ttl.gz         Predicates connecting entry isoforms to annotations
+   expression_low.ttl.gz          describing the level of expression in tissues or 
+   expression_medium.ttl.gz       cell types
+   
+   inferredChildOf-a.ttl.gz       Predicates materializing the transitivity of :child  
+   inferredChildOf-b.ttl.gz       relations between terms
+  
+   inferredSubClassOf-a.ttl.gz    Predicates materializing the transitivity of 
+   inferredSubClassOf-b.ttl.gz    rdfs:subClassOf relations between annotation types
+   
+   nextprot_chromosome_??.ttl.gz  Individual files for each of the human
+                                  chromosomes (1-22, X, Y, MT and unknown) in 
+                                  TTL format
+								  
+   publication.ttl.gz             Publications cited in the evidences of annotations
+   
+   schema.ttl.gz                  Data model schema
+   
+   terminology.ttl.gz             Controlled vocabulary terms used in annotations
+
+   
+/pub/current_release/xml
+
+   neXtProt current release in XML format. Please note that, as of September 2016, 
+   the old XML format is no longer provided. 
+
+   nextprot_all.xml.gz            Complete release of neXtProt in XML format
+
+   nextprot_chromosome_??.xml.gz  Individual files for each of the human
+                                  chromosomes (1-22, X, Y, MT and unknown) in 
+                                  XML format
+
+   nextprot-export-v2.xsd         XML schema definition file
+
+
+/pub/previous_releases
+
+   TAR files of neXtProt previous releases.
+
+   nextprot_release_<date>.tar    TAR files containing the 'neXtProt_all' files in
+                                  XML and PEFF formats, the controlled vocabularies
+                                  and the chromosome report files
+
+--------------------------------------------------------------------------------------
+
