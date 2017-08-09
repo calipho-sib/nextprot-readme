@@ -72,7 +72,6 @@ us for permission first.
    ftp://ftp.expasy.org/databases/cellosaurus/
 
    caloha.obo                     Human anatomical ontology
-   cv_carbohydrate.txt            Controlled vocabulary of carbohydrate modifications								  
    cv_domain.txt                  Controlled vocabulary of domains
    cv_family.txt                  Controlled vocabulary of families
    cv_metal.txt                   Controlled vocabulary of metal-binding sites
