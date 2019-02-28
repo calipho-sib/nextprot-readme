@@ -9,15 +9,19 @@
 Welcome to the anonymous FTP site of neXtProt.
 
 The content of this site is copyright the SIB - Swiss Institute of Bioinformatics.
-The files on this FTP site are available under the Creative Commons Attribution-NoDerivs 
-License.
+The files on this FTP site are available under the Creative Commons Attribution 4.0 
+International Public License (CC BY 4.0).
 
-See: http://creativecommons.org/licenses/by-nd/3.0/
+    See: https://creativecommons.org/licenses/by/4.0/
 
-This means that you are free to copy, distribute, display and make commercial use 
-of these databases in all legislations, provided you give us credit. However, if 
-you intend to distribute a modified version of one of our databases, you must ask 
-us for permission first.
+This means that you are free to share (copy and redistribute the material in any 
+medium or format) and adapt (remix, transform, and build upon the material for any 
+purpose, even commercially) the content. However, you must give appropriate credit, 
+provide a link to the license, and indicate if changes were made. You may do so in 
+any reasonable manner, but not in any way that suggests the licensor endorses you 
+or your use. You may not apply legal terms or technological measures that legally 
+restrict others from doing anything the license permits.
+
 
 ** DETAILED CONTENT DESCRIPTION **
 
