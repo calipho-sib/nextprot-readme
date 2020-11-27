@@ -74,6 +74,7 @@ restrict others from doing anything the license permits.
    the controlled vocabulary of cell lines, the Cellosaurus, can be downloaded from:
    ftp://ftp.expasy.org/databases/cellosaurus/
 
+   Bgee_caloha.tsv                Bgee Uberon+Dev.stage to caloha mapping
    caloha.obo                     Human anatomical ontology
    cv_domain.txt                  Controlled vocabulary of domains
    cv_family.txt                  Controlled vocabulary of families
