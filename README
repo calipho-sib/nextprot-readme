@@ -115,11 +115,11 @@ restrict others from doing anything the license permits.
    
    nextprot_ensg.txt              Mapping to Ensembl gene identifiers
    nextprot_ensp.txt              Mapping to Ensembl protein identifiers
-   nextprot_ensp_unmapped.txt     Ensembl protein identifiers that cannot be mapped to
-                                  any isoform in neXtProt
+   nextprot_ensp_unmapped.txt     Ensembl protein identifiers corresponding to unannotated
+                                  isoforms of genes found in neXtProt
    nextprot_enst.txt              Mapping to Ensembl transcript identifiers
-   nextprot_enst_unmapped.txt     Ensembl transcript identifiers considered as coding by 
-                                  Ensembl that cannot be mapped to any isoform in neXtProt 
+   nextprot_enst_unmapped.txt     Ensembl transcript identifiers corresponding to unannotated
+                                  isoforms of genes found in neXtProt 
    nextprot_geneid.txt            Mapping to NCBI GeneID gene accession numbers
    nextprot_hgnc.txt              Mapping to HGNC gene accession numbers
    nextprot_ipi.txt               Mapping to IPI protein identifiers
