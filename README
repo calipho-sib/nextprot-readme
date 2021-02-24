@@ -124,7 +124,7 @@ restrict others from doing anything the license permits.
    nextprot_hgnc.txt              Mapping to HGNC gene accession numbers
    nextprot_ipi.txt               Mapping to IPI protein identifiers
    nextprot_mgi.txt               Mapping to MGI mouse gene accession numbers
-   nextprot_refseq.txt            Mapping to NCBI RefSeq protein accession numbers
+   nextprot_refseq.txt            Mapping to NCBI RefSeq protein and transcript accession numbers
 
    
 /pub/current_release/md5
